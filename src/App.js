@@ -22,19 +22,16 @@ const App = () => {
 
       <Row>
         <Col>
-        <li className="menu-item" onClick={() => setPage("about")}>About</li>
-        <li className="menu-item" onClick={() => setPage("projects")}>Projects</li>
-        <li className="menu-item" onClick={() => setPage("contact")}>Contact</li>
+          <span className="menu-item" onClick={() => setPage("about")}>About</span>
+          <span className="menu-item" onClick={() => setPage("projects")}>Projects</span>
+          <span className="menu-item" onClick={() => setPage("contact")}>Contact</span>
         </Col>
-      </Row>
 
-      <Row>
         <Col>
           {page === "about" && <About />}
           {page === "projects" && <Projects />}
           {page === "contact" && <Contact />}
         </Col>
-      
       </Row>
     </Container>
   );
