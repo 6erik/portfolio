@@ -3,34 +3,38 @@ import React, { useState } from "react";
 import './App.css';
 
 import Header from './Components/Header.js'
-import Homepage from './Components/Homepage.js'
-import NavMenu from './Components/NavMenu.js'
-import { About } from './Components/About.js'
+import About from './Components/About.js'
+import Projects from './Components/Projects.js'
+import Contact from './Components/Contact.js'
 
 import Container from "react-bootstrap/Container"
 import Row from "react-bootstrap/Row"
 import Col from "react-bootstrap/Col"
-import Button from "react-bootstrap/Button"
 
 const App = () => {
-  const [visible, setAboutVisibility] = useState(false);
+  const [page, setPage] = useState("about")
 
   return (
     <Container>
       <Row>
         <Col> <Header /> </Col>
       </Row>
-      <Row>
-        <Col> <NavMenu /> </Col>
-        <Col> <Homepage /> </Col>
-        <Col> <Button color="primary" onClick={() => setAboutVisibility(true)}>
-              Show Alert
-            </Button> </Col>
-      </Row>
+
       <Row>
         <Col>
+        <li className="menu-item" onClick={() => setPage("about")}>About</li>
+        <li className="menu-item" onClick={() => setPage("projects")}>Projects</li>
+        <li className="menu-item" onClick={() => setPage("contact")}>Contact</li>
         </Col>
-      <About visible={visible} />
+      </Row>
+
+      <Row>
+        <Col>
+          {page === "about" && <About />}
+          {page === "projects" && <Projects />}
+          {page === "contact" && <Contact />}
+        </Col>
+      
       </Row>
     </Container>
   );
