@@ -2,9 +2,9 @@ import Jumbotron from "react-bootstrap/Jumbotron"
 
 function Header() {
     return (
-      <Jumbotron>
-        testing header jumbotron area
-      </Jumbotron>
+      <span className="header">
+        Erik Stanton
+      </span>
     )
 }
 
