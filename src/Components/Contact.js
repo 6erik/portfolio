@@ -2,7 +2,8 @@
 function Contact() {
     return (
       <div>
-          contact page here
+          e-mail:  erikstanton@protonmail.com <br />
+          github:  github.com/6erik
       </div>
     )
 }

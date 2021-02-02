@@ -4,22 +4,30 @@ body {
   background-color: white;
   text-align: center;
   font-family: 'Zilla Slab';
+
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-color: #005A9C;
 }
 
 .header {
   background-color: white;
-  padding: 10px;
-  font-size: 36px;
+  padding: 8px 0 0 0;
+  font-size: 48px;
+  font-weight: 900;
 }
 
 .navbar {
   background-color: white;
   text-align: center;
   justify-content: center;
+  padding: 0 0 0 0;
 }
 
 .navbar-item {
-  margin: 0 20px 0 20px;
+  margin: 0 16px 0 16px;
+  font-size: 20px;
+  color: #EF3E42;
 }
 
 .navbar-item:hover {
