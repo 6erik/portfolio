@@ -25,10 +25,10 @@ const App = () => {
         <Row>
           <Col>
             <div className="navbar">
-              <span className="menu-item hover-link" onClick={() => setPage("about")}>About</span> <br />
-              <span className="menu-item hover-link" onClick={() => setPage("resume")}>Resume</span> <br />
-              <span className="menu-item hover-link" onClick={() => setPage("projects")}>Projects</span> <br />
-              <span className="menu-item hover-link" onClick={() => setPage("contact")}>Contact</span> <br />
+              <span className="navbar-item" onClick={() => setPage("about")}>About</span> <br />
+              <span className="navbar-item" onClick={() => setPage("resume")}>Resume</span> <br />
+              <span className="navbar-item" onClick={() => setPage("projects")}>Projects</span> <br />
+              <span className="navbar-item" onClick={() => setPage("contact")}>Contact</span> <br />
             </div>
             <br />
             <div>

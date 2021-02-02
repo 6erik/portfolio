@@ -1,17 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+
 body {
   background-color: white;
+  text-align: center;
+  font-family: 'Zilla Slab';
 }
 
 .header {
-  background-color: red;
+  background-color: white;
   padding: 10px;
   font-size: 36px;
 }
 
 .navbar {
   background-color: white;
+  text-align: center;
+  justify-content: center;
 }
 
-.hover-link:hover {
+.navbar-item {
+  margin: 0 20px 0 20px;
+}
+
+.navbar-item:hover {
   cursor: pointer;
 }
