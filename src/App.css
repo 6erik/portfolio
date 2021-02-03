@@ -10,18 +10,26 @@ body {
   border-color: #005A9C;
 }
 
-.page-content {
+#page-content {
   background-color: white;
 }
 
-.header {
+#about-content {
+  margin: auto;
+  background-color: white;
+  text-align: left;
+  max-width: 640px;
+  min-width: 640px;
+}
+
+#header-content {
   background-color: white;
   padding: 0 0 0 0;
   font-size: 44px;
   font-weight: 400;
 }
 
-.navbar {
+#navbar {
   background-color: white;
   text-align: center;
   justify-content: center;
@@ -43,11 +51,13 @@ body {
 .projects-item {
   position: relative;
   margin: auto;
-  background-color: pink;
+  background-color: white;
   min-width: 350px;
   max-width: 300px;
   min-height: 350px;
   max-height: 300px;
+
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 }
 
 .projects-item-content {

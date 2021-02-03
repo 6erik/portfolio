@@ -6,16 +6,25 @@ function Projects() {
       <div>
           <Row>
             <Col className="projects-item">
-              <span className="projects-item-content">PetRecs - A website to manage pet health records</span>
+              <span className="projects-item-content">
+                <strong>PetRecs</strong><br />
+                A website to manage pet health records
+              </span>
             </Col>
 
             <Col className="projects-item">
-              <span className="projects-item-content">Craps Logger - A Python application that logs dice rolls for craps and gives statistics</span>
+              <span className="projects-item-content">
+                <strong>Craps Logger</strong><br />
+                A Python application that logs dice rolls for craps and gives statistics
+              </span>
             
             </Col>
 
             <Col className="projects-item">
-              <span className="projects-item-content">Parlay Blazer - A webapp that checks status of a parlay by scraping sports scores</span>
+              <span className="projects-item-content">
+                <strong>Parlay Blazer</strong><br />
+                A webapp that checks status of a parlay by scraping sports scores
+              </span>
             </Col>
           </Row>
       </div>

@@ -1,10 +1,12 @@
 
 function About() {
     return (
-      <div>
-          Hello. <br />
-          I am interested in algorithm efficiency and software development. <br />
-          
+      <div id="about-content">
+          <strong>Interests: </strong> Algorithm efficiency and Software development <br />
+          <strong>Education: </strong> Bachelor of Science, Computer Science @ CSU Monterey Bay<br />
+          <strong>E-Mail: </strong> erikstanton@protonmail.com <br />
+          <strong>GitHub: </strong> github.com/6erik <br />
+          <strong>Resume: </strong> --link here--
       </div>
     )
 }
