@@ -26,15 +26,15 @@ const App = () => {
           <Col>
             <div className="navbar">
               <span className="navbar-item" onClick={() => setPage("about")}>About</span> <br />
-              <span className="navbar-item" onClick={() => setPage("resume")}>Resume</span> <br />
               <span className="navbar-item" onClick={() => setPage("projects")}>Projects</span> <br />
+              <span className="navbar-item" onClick={() => setPage("resume")}>Resume</span> <br />
               <span className="navbar-item" onClick={() => setPage("contact")}>Contact</span> <br />
             </div>
             <br />
-            <div>
+            <div className="page-content">
               {page === "about" && <About />}
-              {page === "resume" && <Resume />}
               {page === "projects" && <Projects />}
+              {page === "resume" && <Resume />}
               {page === "contact" && <Contact />}
             </div>
           </Col>

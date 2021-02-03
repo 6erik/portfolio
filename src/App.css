@@ -10,11 +10,15 @@ body {
   border-color: #005A9C;
 }
 
+.page-content {
+  background-color: white;
+}
+
 .header {
   background-color: white;
-  padding: 8px 0 0 0;
-  font-size: 48px;
-  font-weight: 900;
+  padding: 0 0 0 0;
+  font-size: 44px;
+  font-weight: 400;
 }
 
 .navbar {
@@ -26,10 +30,30 @@ body {
 
 .navbar-item {
   margin: 0 16px 0 16px;
-  font-size: 20px;
+  font-size: 18px;
+  font-weight: 500;
   color: #EF3E42;
+  color: #005A9C;
 }
 
 .navbar-item:hover {
   cursor: pointer;
+}
+
+.projects-item {
+  position: relative;
+  margin: auto;
+  background-color: pink;
+  min-width: 350px;
+  max-width: 300px;
+  min-height: 350px;
+  max-height: 300px;
+}
+
+.projects-item-content {
+  padding: 0 4px 0 4px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
