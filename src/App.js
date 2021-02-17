@@ -2,16 +2,16 @@ import React, { useState } from "react";
 
 import './App.css';
 
-import Header from './Components/Header.js'
-import About from './Components/About.js'
-import Projects from './Components/Projects.js'
+import Header from './Components/Header.js';
+import About from './Components/About.js';
+import Projects from './Components/Projects.js';
 
-import Container from "react-bootstrap/Container"
-import Row from "react-bootstrap/Row"
-import Col from "react-bootstrap/Col"
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
 
 const App = () => {
-  const [page, setPage] = useState("about")
+  const [page, setPage] = useState("about");
 
   return (
     <span>
