@@ -25,7 +25,7 @@ function Projects() {
   const handleShow3 = () => setShow3(true);
 
     return (
-      <div>
+      <div className="animate-fade">
           <Row>
             <Col className="projects-item">
               <span className="projects-item-content" onClick={handleShow1}>

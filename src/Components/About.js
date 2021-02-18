@@ -1,7 +1,7 @@
 
 function About() {
     return (
-      <div id="about-content">
+      <div id="about-content" className="animate-fade">
           <strong>Education: </strong> B.S., Computer Science @ CSU Monterey Bay <br />
           <strong>GitHub: </strong> <a href="https://github.com/6erik" target="_blank">github.com/6erik</a> <br />
           <strong>E-Mail: </strong> erikstanton@protonmail.com <br />
