@@ -4,24 +4,70 @@ body {
   background-color: white;
   text-align: center;
   font-family: 'Zilla Slab';
+
+  border-top-style: solid;
+  border-top-width: 6px;
+  border-color: #005A9C;
 }
 
-.header {
+a {
+  color: #005A9C;
+}
+
+#page-content {
   background-color: white;
-  padding: 10px;
-  font-size: 36px;
 }
 
-.navbar {
+#about-content {
+  margin: auto;
+  background-color: white;
+  text-align: left;
+  max-width: 640px;
+  min-width: 640px;
+}
+
+#header-content {
+  background-color: white;
+  padding: 0 0 0 0;
+  font-size: 44px;
+  font-weight: 400;
+}
+
+#navbar {
   background-color: white;
   text-align: center;
   justify-content: center;
+  padding: 0 0 0 0;
 }
 
 .navbar-item {
-  margin: 0 20px 0 20px;
+  margin: 0 16px 0 16px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #EF3E42;
+  color: #005A9C;
 }
 
 .navbar-item:hover {
   cursor: pointer;
+}
+
+.projects-item {
+  position: relative;
+  margin: auto;
+  background-color: white;
+  min-width: 350px;
+  max-width: 300px;
+  min-height: 350px;
+  max-height: 300px;
+
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.projects-item-content {
+  padding: 0 4px 0 4px;
+  text-align: justify;
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }

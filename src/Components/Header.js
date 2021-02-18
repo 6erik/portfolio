@@ -1,8 +1,6 @@
-import Jumbotron from "react-bootstrap/Jumbotron"
-
 function Header() {
     return (
-      <span className="header">
+      <span id="header-content">
         Erik Stanton
       </span>
     )
