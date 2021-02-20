@@ -57,7 +57,9 @@ function Projects() {
           <Modal.Header closeButton>
             <Modal.Title>PetRecs</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Tech used:</Modal.Body>
+          <Modal.Body>
+            Tech used:
+            </Modal.Body>
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose1}>
               Close
@@ -67,9 +69,13 @@ function Projects() {
 
         <Modal show={show2} onHide={handleClose2}>
           <Modal.Header closeButton>
-            <Modal.Title>PetRecs</Modal.Title>
+            <Modal.Title>Craps Logger</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Tech used:</Modal.Body>
+          <Modal.Body>
+            
+            Tech used:
+          </Modal.Body>
+
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose2}>
               Close
@@ -79,9 +85,13 @@ function Projects() {
 
         <Modal show={show3} onHide={handleClose3}>
           <Modal.Header closeButton>
-            <Modal.Title>PetRecs</Modal.Title>
+            <Modal.Title>Parlay Blazer</Modal.Title>
           </Modal.Header>
-          <Modal.Body>Tech used:</Modal.Body>
+
+          <Modal.Body>
+            Tech used: ReactJS
+            </Modal.Body>
+
           <Modal.Footer>
             <Button variant="secondary" onClick={handleClose3}>
               Close
