@@ -1,6 +1,6 @@
 function Header() {
     return (
-      <span id="header-content">
+      <span id="header-content" className="animate-fade">
         Erik Stanton
       </span>
     )

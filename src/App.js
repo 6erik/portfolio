@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 import './App.css';
 
-import Header from './Components/Header.js';
+import Header from './Components/Header.js'
 import About from './Components/About.js';
 import Projects from './Components/Projects.js';
 
@@ -22,7 +22,7 @@ const App = () => {
 
         <Row>
           <Col>
-            <div id="navbar">
+            <div id="navbar" className="animate-fade">
               <span className="navbar-item" onClick={() => setPage("about")}>About</span>
               <span className="navbar-item" onClick={() => setPage("projects")}>Projects</span>
             </div>
