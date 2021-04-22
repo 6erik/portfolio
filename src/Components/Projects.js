@@ -7,6 +7,7 @@ import Button from "react-bootstrap/Button";
 
 import petrecs1 from '../img/petrecs_corner.png';
 import crapslogger1 from '../img/crapslogger_corner.png';
+import typingtest1 from '../img/typingtest_corner.png';
 
 function Projects() {
   const [show1, setShow1] = useState(false);
@@ -46,8 +47,9 @@ function Projects() {
 
             <Col className="projects-item">
               <span className="projects-item-content" onClick={handleShow3}>
-                <strong>Parlay Blazer</strong><br />
-                A web app made with ReactJS, that gives the user the current status of their parlay bet, by checking live scores of each game
+              <img src={typingtest1} width="342" height="250" alt="Screenshot of Typing Test app"/>
+                <strong>Java Typing Test</strong><br />
+                A web app made with JS, where users can practice typing the common format, syntax, and symbols used in Java code
               </span>
             </Col>
           </Row>
@@ -85,7 +87,7 @@ function Projects() {
 
         <Modal show={show3} onHide={handleClose3}>
           <Modal.Header closeButton>
-            <Modal.Title>Parlay Blazer</Modal.Title>
+            <Modal.Title>Java Typing Test</Modal.Title>
           </Modal.Header>
 
           <Modal.Body>
