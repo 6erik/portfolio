@@ -80,7 +80,7 @@ function Projects() {
             <li>Node.js</li>
           </Modal.Body>
 
-          <Modal.Footer>
+          <Modal.Footer className="modal-footer">
             <a href="https://petrecs.herokuapp.com/" target="_blank">[Webpage]</a>
           </Modal.Footer>
         </Modal>
@@ -96,7 +96,7 @@ function Projects() {
             Tech used:
           </Modal.Body>
 
-          <Modal.Footer>
+          <Modal.Footer className="modal-footer">
             <a href="https://github.com/6erik/craps-logger" target="_blank">[GitHub]</a>
           </Modal.Footer>
         </Modal>
@@ -110,7 +110,7 @@ function Projects() {
             Tech used: ReactJS
           </Modal.Body>
 
-          <Modal.Footer>
+          <Modal.Footer className="modal-footer">
             <a href="https://6erik.github.io/typing-test" target="_blank">[Webpage]</a> &nbsp;
             <a href="https://github.com/6erik/typing-test" target="_blank">[GitHub]</a>
           </Modal.Footer>
