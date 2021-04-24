@@ -4,6 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
+import Carousel from "react-bootstrap/Carousel";
 
 import petrecs1 from '../img/petrecs_corner.png';
 import crapslogger1 from '../img/crapslogger_corner.png';
@@ -49,7 +50,7 @@ function Projects() {
               <span className="projects-item-content" onClick={handleShow3}>
               <img src={typingtest1} width="342" height="250" alt="Screenshot of Typing Test app"/>
                 <strong>Java Typing Test</strong><br />
-                A web app made with JS, where users can practice typing the common format, syntax, and symbols used in Java code
+                A web app made with JS, where users can practice typing the common formatting, syntax, and symbols used in Java code
               </span>
             </Col>
           </Row>
@@ -59,13 +60,28 @@ function Projects() {
           <Modal.Header closeButton>
             <Modal.Title>PetRecs</Modal.Title>
           </Modal.Header>
+
           <Modal.Body>
-            Tech used:
-            </Modal.Body>
+            <Carousel>
+              <Carousel.Item>
+                test image 1
+              </Carousel.Item>
+              <Carousel.Item>
+                test image 2
+              </Carousel.Item>
+              <Carousel.Item>
+                test image 3
+              </Carousel.Item>
+            </Carousel>
+            <ul>Tech used:</ul>
+            <li>MySQL</li>
+            <li>Express.js</li>
+            <li>React</li>
+            <li>Node.js</li>
+          </Modal.Body>
+
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose1}>
-              Close
-            </Button>
+
           </Modal.Footer>
         </Modal>
 
@@ -73,15 +89,14 @@ function Projects() {
           <Modal.Header closeButton>
             <Modal.Title>Craps Logger</Modal.Title>
           </Modal.Header>
+
           <Modal.Body>
             
             Tech used:
           </Modal.Body>
 
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose2}>
-              Close
-            </Button>
+
           </Modal.Footer>
         </Modal>
 
@@ -92,12 +107,10 @@ function Projects() {
 
           <Modal.Body>
             Tech used: ReactJS
-            </Modal.Body>
+          </Modal.Body>
 
           <Modal.Footer>
-            <Button variant="secondary" onClick={handleClose3}>
-              Close
-            </Button>
+
           </Modal.Footer>
         </Modal>
       </div>
