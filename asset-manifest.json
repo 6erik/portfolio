@@ -1,28 +1,28 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.aeeb1ad0.chunk.css",
-    "main.js": "/portfolio/static/js/main.00c9a3f9.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.00c9a3f9.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.4e8eecca.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4e8eecca.js.map",
+    "main.js": "/portfolio/static/js/main.81a191b1.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.81a191b1.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.b9d352bb.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.b9d352bb.js.map",
     "static/css/2.1a02f21c.chunk.css": "/portfolio/static/css/2.1a02f21c.chunk.css",
-    "static/js/2.6135e2eb.chunk.js": "/portfolio/static/js/2.6135e2eb.chunk.js",
-    "static/js/2.6135e2eb.chunk.js.map": "/portfolio/static/js/2.6135e2eb.chunk.js.map",
-    "static/js/3.15ea33d2.chunk.js": "/portfolio/static/js/3.15ea33d2.chunk.js",
-    "static/js/3.15ea33d2.chunk.js.map": "/portfolio/static/js/3.15ea33d2.chunk.js.map",
+    "static/js/2.c29147d6.chunk.js": "/portfolio/static/js/2.c29147d6.chunk.js",
+    "static/js/2.c29147d6.chunk.js.map": "/portfolio/static/js/2.c29147d6.chunk.js.map",
+    "static/js/3.2fdd0948.chunk.js": "/portfolio/static/js/3.2fdd0948.chunk.js",
+    "static/js/3.2fdd0948.chunk.js.map": "/portfolio/static/js/3.2fdd0948.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.1a02f21c.chunk.css.map": "/portfolio/static/css/2.1a02f21c.chunk.css.map",
     "static/css/main.aeeb1ad0.chunk.css.map": "/portfolio/static/css/main.aeeb1ad0.chunk.css.map",
-    "static/js/2.6135e2eb.chunk.js.LICENSE.txt": "/portfolio/static/js/2.6135e2eb.chunk.js.LICENSE.txt",
+    "static/js/2.c29147d6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.c29147d6.chunk.js.LICENSE.txt",
     "static/media/crapslogger_corner.bd55e562.png": "/portfolio/static/media/crapslogger_corner.bd55e562.png",
     "static/media/petrecs_corner.c9f988b4.png": "/portfolio/static/media/petrecs_corner.c9f988b4.png",
     "static/media/typingtest_corner.83564436.png": "/portfolio/static/media/typingtest_corner.83564436.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.4e8eecca.js",
+    "static/js/runtime-main.b9d352bb.js",
     "static/css/2.1a02f21c.chunk.css",
-    "static/js/2.6135e2eb.chunk.js",
+    "static/js/2.c29147d6.chunk.js",
     "static/css/main.aeeb1ad0.chunk.css",
-    "static/js/main.00c9a3f9.chunk.js"
+    "static/js/main.81a191b1.chunk.js"
   ]
 }
