@@ -4,7 +4,9 @@ function About() {
           <strong>Education: </strong> B.S., Computer Science @ CSU Monterey Bay <br />
           <strong>GitHub: </strong> <a href="https://github.com/6erik" target="_blank">github.com/6erik</a> <br />
           <strong>E-Mail: </strong> erikstanton@protonmail.com <br />
-          <strong>Resume: </strong><a href="../files/word_resume.docx" target="_blank">[Word]</a><a href="../files/pdf_resume.pdf" target="_blank">[PDF]</a><br />
+          <strong>Resume: </strong>
+            <a href="https://github.com/6erik/portfolio/raw/master/src/files/word_resume.docx" target="_blank">[Word]</a>
+            <a href="https://github.com/6erik/portfolio/raw/master/src/files/pdf_resume.pdf" target="_blank">[PDF]</a><br />
           <strong>Interests: </strong>
           <ul>
             <li>Software and UI development </li>

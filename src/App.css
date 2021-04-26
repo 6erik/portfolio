@@ -40,6 +40,11 @@ a {
   padding: 0 0 0 0;
 }
 
+.modal-footer {
+  text-align: left;
+  justify-content: left;
+}
+
 .navbar-item {
   margin: 0 16px 0 16px;
   font-size: 18px;
