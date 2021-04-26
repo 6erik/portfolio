@@ -85,9 +85,9 @@ function Projects() {
           </Modal.Body>
 
           <Modal.Footer className="modal-footer">
-            <a href="https://petrecs.herokuapp.com/" target="_blank" rel="noopener noreferrer">[ Webpage ]</a> &nbsp;&nbsp;
-            <a href="https://github.com/LeviRemi/PetRecs" target="_blank" rel="noopener noreferrer">[ Repository ]</a> &nbsp;&nbsp;
-            <a href="https://www.youtube-nocookie.com/embed/SjbETH8Fx_k" target="_blank" rel="noopener noreferrer">[ Presentation+Demo ]</a> &nbsp;&nbsp;
+            <a href="https://petrecs.herokuapp.com/" target="_blank" rel="noopener noreferrer">[Webpage]</a> &nbsp;
+            <a href="https://github.com/LeviRemi/PetRecs" target="_blank" rel="noopener noreferrer">[Repository]</a> &nbsp;
+            <a href="https://www.youtube-nocookie.com/embed/SjbETH8Fx_k" target="_blank" rel="noopener noreferrer">[Presentation/Demo]</a>
             
           </Modal.Footer>
         </Modal>

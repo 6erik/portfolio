@@ -89,6 +89,7 @@ a:hover {
 
 .projects-item:hover {
   cursor: pointer;
+  box-shadow: rgba(255, 110, 110, 0.295) 0px 4px 16px, rgba(26, 17, 17, 0.1) 0px 8px 24px, rgba(26, 17, 17, 0.1) 0px 16px 56px;
 }
 
 .projects-item-content {
