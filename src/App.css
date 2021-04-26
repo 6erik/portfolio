@@ -2,16 +2,22 @@
 
 body {
   background-color: white;
-  text-align: center;
-  font-family: 'Zilla Slab';
-
   border-top-style: solid;
   border-top-width: 6px;
   border-color: #005A9C;
+
+  text-align: center;
+  font-family: 'Zilla Slab';
 }
 
 a {
   color: #005A9C;
+  letter-spacing: 1px;
+}
+
+a:hover {
+  color: #EF3E42;
+  text-decoration: none;
 }
 
 #page-content {
@@ -29,8 +35,8 @@ a {
 #header-content {
   background-color: white;
   padding: 0 0 0 0;
-  font-size: 44px;
-  font-weight: 400;
+  font-size: 46px;
+  letter-spacing: -2px;
 }
 
 #navbar {
@@ -40,21 +46,33 @@ a {
   padding: 0 0 0 0;
 }
 
+.modal-content {
+  text-align: left;
+  justify-content: left;
+}
+
+.modal-title {
+  letter-spacing: -1px;
+  font-size: 24px;
+  font-weight: 600;
+}
+
 .modal-footer {
   text-align: left;
   justify-content: left;
+  font-size: large;
 }
 
 .navbar-item {
   margin: 0 16px 0 16px;
   font-size: 18px;
-  font-weight: 500;
-  color: #EF3E42;
+  letter-spacing: 1px;
   color: #005A9C;
 }
 
 .navbar-item:hover {
   cursor: pointer;
+  color: #EF3E42;
 }
 
 .projects-item {
@@ -67,6 +85,10 @@ a {
   max-height: 300px;
 
   box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+.projects-item:hover {
+  cursor: pointer;
 }
 
 .projects-item-content {
