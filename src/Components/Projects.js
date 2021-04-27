@@ -136,13 +136,23 @@ function Projects() {
                   <img src={crapslogger_ss2} width={520} height={380} alt="Screenshot showing UI after games have been logged"/><br />
                   <strong>Frequencies of all outcomes are updated after each submitted roll.</strong>
                 </Carousel.Item>
-              </Carousel>
+                </Carousel>
               <br />
-              <strong>Tech used: </strong>
-              <ul>
-                <li>Python</li>
-                <li>Tkinter</li>
-              </ul>
+              <Row>
+                <Col>
+                  <strong>Description: </strong> <br />
+                  Craps Logger is a Python application utilizing the Tkinter GUI package. 
+                </Col>
+                <Col md={3}>
+                  <strong>Tech used: </strong>
+                  <ul>
+                    <li>Python</li>
+                    <li>Tkinter</li>
+                  </ul>
+                </Col>
+              </Row>
+              
+              
           </Modal.Body>
 
           <Modal.Footer className="modal-footer">
@@ -168,12 +178,23 @@ function Projects() {
                 </Carousel.Item>
               </Carousel>
               <br />
-              <strong>Tech used: </strong>
-              <ul>
-                <li>JavaScript</li>
-                <li>HTML</li>
-                <li>CSS</li>
-              </ul>
+              <Row>
+                <Col>
+                  <strong>Description: </strong> <br />
+                  Java Typing Test is a basic web application, using HTML and JavaScript, to practice typing text
+                  that is commonly used in the Java language. Code blocks are randomly generated, ensuring that users
+                  get practice with the formatting of different loops and all of the various symbols used when coding.
+                </Col>
+                <Col md={3}>
+                <strong>Tech used: </strong>
+                  <ul>
+                   <li>JavaScript</li>
+                   <li>HTML</li>
+                   <li>CSS</li>
+                  </ul>
+                </Col>
+              </Row>
+              
           </Modal.Body>
 
           <Modal.Footer className="modal-footer">
