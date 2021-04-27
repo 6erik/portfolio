@@ -12,7 +12,12 @@ import petrecs_ss3 from '../img/petrecs/3_records.png';
 import petrecs_ss4 from '../img/petrecs/4_health.png';
 
 import crapslogger1 from '../img/crapslogger_corner.png';
+import crapslogger_ss1 from '../img/craps/1_newgame.png';
+import crapslogger_ss2 from '../img/craps/2_postgame.png';
+
 import typingtest1 from '../img/typingtest_corner.png';
+import typingtest_ss1 from '../img/typing/1_complete.png';
+import typingtest_ss2 from '../img/typing/2_typos.png';
 
 function Projects() {
   const [show1, setShow1] = useState(false);
@@ -87,13 +92,24 @@ function Projects() {
                 </Carousel.Item>
               </Carousel>
               <br />
-              <strong>Tech used: </strong>
-              <ul>
-                <li>React</li>
-                <li>Express.js</li>
-                <li>Node.js</li>
-                <li>MySQL</li>
-              </ul>
+              <Row>
+                <Col>
+                  <strong>Description: </strong> <br />
+                  PetRecs is an account-based web application for pet owners and veterinarians to upload, track and share
+                  pet-healthcare documents and data online. Application was developed by a team of 3, utilizing Agile sprints
+                  and the Scrum framework. 
+                </Col>
+                <Col md={3}>
+                  <strong>Tech used: </strong>
+                  <ul>
+                    <li>React</li>
+                    <li>Express.js</li>
+                    <li>Node.js</li>
+                    <li>MySQL</li>
+                  </ul>
+                </Col>
+              </Row>
+              
           </Modal.Body>
 
           <Modal.Footer className="modal-footer">
@@ -104,22 +120,21 @@ function Projects() {
           </Modal.Footer>
         </Modal>
 
-        <Modal show={show2} onHide={handleClose2}>
+        <Modal show={show2} onHide={handleClose2} dialogClassName="modal-wide">
           <Modal.Header closeButton>
             <Modal.Title>Craps Logger
             </Modal.Title>
           </Modal.Header>
 
           <Modal.Body>
-            <Carousel>
+            <Carousel indicators="false" interval="8000" className="centered-carousel" >
                 <Carousel.Item>
-                  test image 1
+                  <img src={crapslogger_ss1} width={520} height={380} alt="Screenshot showing UI before any use"/><br />
+                  <strong>Screenshot of the application before any rolls have been logged.</strong>
                 </Carousel.Item>
                 <Carousel.Item>
-                  test image 2
-                </Carousel.Item>
-                <Carousel.Item>
-                  test image 3
+                  <img src={crapslogger_ss2} width={520} height={380} alt="Screenshot showing UI after games have been logged"/><br />
+                  <strong>Frequencies of all outcomes are updated after each submitted roll.</strong>
                 </Carousel.Item>
               </Carousel>
               <br />
@@ -135,21 +150,21 @@ function Projects() {
           </Modal.Footer>
         </Modal>
 
-        <Modal show={show3} onHide={handleClose3}>
+        <Modal show={show3} onHide={handleClose3} dialogClassName="modal-wide">
           <Modal.Header closeButton>
-            <Modal.Title>Java Typing Test</Modal.Title>
+            <Modal.Title>Java Typing Test
+            </Modal.Title>
           </Modal.Header>
 
           <Modal.Body>
-            <Carousel>
+            <Carousel indicators="false" interval="8000" className="centered-carousel" >
                 <Carousel.Item>
-                  test image 1
+                  <img src={typingtest_ss1} width={520} height={380} alt="Screenshot showing a completed typing test"/><br />
+                  <strong>After completion of the test, total time taken and WPM are displayed.</strong>
                 </Carousel.Item>
                 <Carousel.Item>
-                  test image 2
-                </Carousel.Item>
-                <Carousel.Item>
-                  test image 3
+                  <img src={typingtest_ss2} width={520} height={380} alt="Screenshot showing UI after games have been logged"/><br />
+                  <strong>When the user commits typing errors, incorrect characters are highlighted.</strong>
                 </Carousel.Item>
               </Carousel>
               <br />
