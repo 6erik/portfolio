@@ -46,6 +46,10 @@ a:hover {
   padding: 0 0 0 0;
 }
 
+.modal-wide {
+  min-width: 900px;
+}
+
 .modal-content {
   text-align: left;
   justify-content: left;
@@ -98,6 +102,21 @@ a:hover {
   position: absolute;
   bottom: 0;
   left: 0;
+}
+
+.centered-carousel {
+  text-align: center;
+  position: center;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+  background-color: black;
+  width: 30px;
+  height: 12px;
+  border-style: solid;
+  border-radius: 4px;
+  padding: 6px;
+  border-width: 2px;
 }
 
 .animate-fade {
