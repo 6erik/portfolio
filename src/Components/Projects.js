@@ -141,7 +141,9 @@ function Projects() {
               <Row>
                 <Col>
                   <strong>Description: </strong> <br />
-                  Craps Logger is a Python application utilizing the Tkinter GUI package. 
+                  Craps Logger is a Python application utilizing the Tkinter GUI package. Frequencies of single rolls and outcomes 
+                  are displayed in the statistics pane. The clunkiness of displaying elements via Tkinter was overlooked, but next revision
+                  will include a full .txt log of more useful calculations.
                 </Col>
                 <Col md={3}>
                   <strong>Tech used: </strong>
